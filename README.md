@@ -1,36 +1,180 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rakshith — Developer Portfolio
+
+A modern and responsive personal developer portfolio built to showcase my projects, technical skills, education, and experience in full-stack web development and Artificial Intelligence & Machine Learning.
+
+The portfolio features a clean dark interface, responsive design, project showcase, contact section, and a functional backend API for handling contact form submissions.
+
+## Live Demo
+
+**Portfolio:**  
+https://portfolio-website-eta-opal-49.vercel.app/
+
+## About Me
+
+I'm **Rakshith**, a B.Tech student specializing in **Artificial Intelligence & Machine Learning at VIPS, New Delhi**.
+
+I am interested in building modern web applications, full-stack systems, developer tools, and AI-powered applications. I enjoy transforming ideas into functional products with clean interfaces and practical engineering.
+
+## Featured Projects
+
+### Memora AI
+An intelligent memory system designed to store, retrieve, score, and manage contextual information using AI-powered memory lifecycle techniques.
+
+### CodePilot
+A developer-focused application designed to improve coding workflows through intelligent assistance and modern development tools.
+
+### Clinic SaaS
+A full-stack clinic management SaaS application designed to organize patient workflows, appointments, and administrative operations.
+
+### Study Alarm
+A productivity-focused system designed to help students manage focused study sessions and build consistent study routines.
+
+## Tech Stack
+
+**Frontend**
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- HTML
+- CSS
+
+**Backend**
+- Next.js API Routes
+- REST API concepts
+- Node.js
+
+**Other Technologies**
+- JavaScript
+- Python
+- C++
+- SQL
+- Git & GitHub
+- Artificial Intelligence / Machine Learning
+
+## Features
+
+- Modern responsive portfolio interface
+- Mobile-friendly navigation
+- About and education section
+- Technical skills showcase
+- Featured project cards
+- Direct GitHub integration
+- Contact form
+- Server-side contact API endpoint
+- Form validation and error handling
+- Responsive layout for desktop and mobile
+- Production deployment on Vercel
+
+## Project Structure
+
+```text
+portfolio-website/
+│
+├── app/
+│   ├── api/
+│   │   └── contact/
+│   │       └── route.ts
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── public/
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+```
+
+## Contact API
+
+The portfolio includes a backend API endpoint:
+
+```text
+POST /api/contact
+```
+
+The endpoint accepts contact form submissions, validates the provided data, and returns an appropriate JSON response.
+
+Example request:
+
+```json
+{
+  "name": "Test User",
+  "email": "test@example.com",
+  "message": "Hello from the portfolio."
+}
+```
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/Rakshith-028/portfolio-website.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio-website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the application in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Production Build
 
-## Learn More
+To create an optimized production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Then start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application is deployed using **Vercel** with automatic integration from the GitHub repository.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Live deployment:
+
+https://portfolio-website-eta-opal-49.vercel.app/
+
+## Repository
+
+GitHub:  
+https://github.com/Rakshith-028/portfolio-website
+
+## Author
+
+**Rakshith**
+
+B.Tech — Artificial Intelligence & Machine Learning  
+VIPS, New Delhi
+
+GitHub: https://github.com/Rakshith-028  
+Email: rakshith0228@gmail.com
+
+---
+
+If you found this project useful or interesting, consider giving the repository a star.
